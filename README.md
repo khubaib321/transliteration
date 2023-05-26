@@ -1,4 +1,4 @@
 # transliteration
-Translate and transcribe a video file into english, and read it out loud!
+Transcribe and translate a video file into english, and, read it out loud!
 
-Uses OpenAI Whisper for translation and transcription, and Google Text to Speech to read the transcription.
+Uses OpenAI Whisper for transcription and translation, and, Google Text to Speech to read the transcription.
