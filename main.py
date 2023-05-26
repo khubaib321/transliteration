@@ -19,6 +19,10 @@ SOURCES = "sources/"
 AUDIO_SOURCES = SOURCES + "audio/"
 OPENAI_API_KEY = _os.environ["OPENAI_API_KEY"]
 
+_os.makedirs(_os.path.dirname(OUTPUTS), exist_ok=True)
+_os.makedirs(_os.path.dirname(SOURCES), exist_ok=True)
+_os.makedirs(_os.path.dirname(AUDIO_SOURCES), exist_ok=True)
+
 
 def _convert_mp4_to_mp3(mp4_path, mp3_path):
     # Blocking run.
