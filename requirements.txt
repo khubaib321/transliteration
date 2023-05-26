@@ -1,0 +1,8 @@
+openai==0.27.7
+setuptools-rust==1.6.0
+openai-whisper==20230314
+python-dotenv==1.0.0
+google-cloud-texttospeech==2.14.1
+pydub==0.25.1
+PyAudio==0.2.13
+black==23.3.0

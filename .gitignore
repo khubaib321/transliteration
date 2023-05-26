@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+venv/
+models/
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+.env
+sources/
+outputs/
