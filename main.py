@@ -56,7 +56,7 @@ def capture_stdout(output):
 
     while True:
         captured_output = output.getvalue()
-        # Clear the captured output
+        # Clear the output
         output.truncate(0)
         output.seek(0)
 
